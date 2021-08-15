@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3>Contacts</h3>
+    <ol>
+      <li>Email</li>
+      <li>Address</li>
+      <li>Telephone</li>
+    </ol>
+    <hr>
+    <form action="mailto:info@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Your name: </label>
+      <input type="text" name="yourName" id="name" size="30" required><br>
+
+      <label for="name">Your email: </label>
+      <input type="email" name="yourName" id="email"
+       pattern=".+@gmail.com" size="30" required><br>
+
+       <label>Your message:</label><br>
+       <textarea id="story" name="story"
+          rows="5" cols="33">
+It was a dark and stormy night...
+</textarea><br>
+
+      <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required><br>
+
+           <input type="file"><br>
+           <input type="date"><br>
+           <input type="radio"><br>
+           <input type="range"><br>
+
+<input type="submit" value="Submit!">
+
+
+
+    </form>
+  </body>
+</html>
